@@ -22,7 +22,7 @@ async function draw() {
 			}
 			if (value) {
         const array = value.split(';')
-        background(color("white"));
+        background(color("cyan"));
         textSize(50);
 			  text(`Humidity = ${array[0]}%`,20,40);
         text(`Temperature = ${array[1]}°C`,20,90);
