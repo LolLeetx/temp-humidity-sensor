@@ -24,7 +24,7 @@ async function draw() {
         const array = value.split(';')
         background(color("white"));
         textSize(50);
-				text(`Humidity = ${array[0]}%`,20,40);
+			  text(`Humidity = ${array[0]}%`,20,40);
         text(`Temperature = ${array[1]}°C`,20,90);
         text(`Humidity status = ${array[2]}`,20,140);
         text(`Temperature status = ${array[3]}`,20,190);
